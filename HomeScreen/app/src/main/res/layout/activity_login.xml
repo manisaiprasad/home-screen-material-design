@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.manisaiprasad.homescreen.login"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg31"
+        android:visibility="visible">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.9"
+            android:src="#000000" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <EditText
+
+            android:id="@+id/editText"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/gradienteditext"
+            android:drawableLeft="@drawable/ic_lightbulb_outline_black_24dp"
+            android:drawablePadding="10dp"
+            android:drawableTint="#fff"
+            android:hint="Username"
+            android:textColorHint="#fff" />
+
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/gradienteditext"
+            android:drawableLeft="@drawable/ic_lightbulb_outline_black_24dp"
+            android:drawablePadding="10dp"
+            android:drawableTint="#fff"
+            android:hint="Password"
+            android:textColorHint="#fff" />
+
+        <Button
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/gradienteditext"
+            android:drawableRight="@drawable/ic_attach_money_black_24dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Log in"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+    </RelativeLayout>
